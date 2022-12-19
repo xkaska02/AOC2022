@@ -10,3 +10,6 @@ day1: day1.c
 
 clean:
 	rm -rf $(PROGS)
+
+run:
+	./$(PROGS)
